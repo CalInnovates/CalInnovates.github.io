@@ -167,7 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/landing-img.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -177,16 +177,11 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -205,10 +200,9 @@ header.masthead .intro-text .intro {
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 75px;
     margin-bottom: 50px;
-    text-decoration: underline;
     font-family: 'Open Sans', sans-serif
   }
   header.masthead .intro-text .intro {
