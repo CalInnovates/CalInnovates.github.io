@@ -65,8 +65,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #cca210;
+  border-color: #cca210;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -168,6 +168,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-bg.jpg");
+  opacity:0.5;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
