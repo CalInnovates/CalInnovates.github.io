@@ -124,8 +124,9 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
-  padding: 0.75em 0;
+  padding: 2em 0;
   letter-spacing: 1px;
+  height: 80px;
   color: white;
   font-family: 'PT Sans', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
