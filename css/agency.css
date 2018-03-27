@@ -215,9 +215,16 @@ header.masthead .intro-text .intro {
   }
 }
 
+.faq-panel {
+    color:#4286f4;
+    font-family: 'PT Serif', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .service-heading {
   margin: 15px 0;
+  font-size:25px;
   text-transform: none;
+  padding: 10px;
 }
 
 #portfolio .portfolio-item {
