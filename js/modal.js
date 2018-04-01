@@ -7,11 +7,11 @@ var span = document.getElementsByClassName("close")[0];
 
 
 $("a.rcsaInfo").click(function() {
-  rcsaModal.style.display = "block"
+  rcsaModal.style.display = "block";
 });
 
 $("a.scetInfo").click(function() {
-  scetModal.style.display = "block"
+  scetModal.style.display = "block";
 });
 
 
@@ -24,5 +24,8 @@ span.onclick = function() {
 window.onclick = function(event) {
     if (event.target == rcsaModal) {
         rcsaModal.style.display = "none";
+    }
+    if (event.target == scetModal) {
+        scetModal.style.display = "none";
     }
 }
