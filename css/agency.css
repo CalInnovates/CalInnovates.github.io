@@ -23,6 +23,7 @@ a:hover {
   color: #fed136 !important;
 }
 
+
 h1,
 h2,
 h3,
@@ -35,6 +36,10 @@ h6 {
 
 section {
   padding: 100px 0;
+}
+
+section h4.aboutCaption {
+  color: #212529;
 }
 
 section h2.section-heading {
@@ -272,7 +277,6 @@ header.masthead .intro-text .intro {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -308,7 +312,7 @@ header.masthead .intro-text .intro {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
+  margin: ub;
   text-transform: none;
 }
 
@@ -617,6 +621,44 @@ header.masthead .intro-text .intro {
 .team-member p {
   margin-top: 0;
 }
+
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
 
 footer#contact {
   background-color: #8883B290;

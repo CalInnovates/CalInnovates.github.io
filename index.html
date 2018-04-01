@@ -105,45 +105,35 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/rcs_logo.png" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>About the Regents' and Chancellor's Scholarship</h4>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
+        <div padding-right="20px" class="col-md-6 col-sm-6 text-center">
+          <a class="rcsaInfo" href="#swethapls">
             <img class="img-fluid" src="img/rcsa_logo.png" alt="">
+            <h4 class="aboutCaption">About the Regents' and Chancellor's Scholars Association</h4>
           </a>
-          <div class="portfolio-caption">
-            <h4>About the Regents' and Chancellor's Scholars Association</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <a class="scetInfo" href="#swethapls">
+            <img class="img-fluid" src="img/scet_logo.jpg" alt="">
+            <h4 class="aboutCaption">About Pantas and Ting Sutardja Center for Entrepreneurship and Technology </h4>
+          </a>
+        </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="rcsaModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-                <img class="img-fluid d-block mx-auto" src="img/scet_logo.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>
-                About Pantas and Ting Sutardja Center for Entrepreneurship and Technology </h4>
-            </div>
+
+        <!-- The Modal -->
+        <div id="scetModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
           </div>
         </div>
 
@@ -647,6 +637,27 @@
         </div>
       </div>
     </section> -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolioModal2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times">asdfasdf</i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/rcsa_logo.jpg" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer id="contact">
         <div class="container">
@@ -673,6 +684,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="js/modal.js"></script>
 
   </body>
 
