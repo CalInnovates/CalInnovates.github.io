@@ -31,8 +31,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-          <a  class="navbar-brand js-scroll-trigger" href="#page-top">
+          <a  class="navbar-brand js-scroll-trigger">
             <img src="img/logo.png" width="100" height="100">
+
           </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
@@ -96,6 +97,7 @@
           </div>
         <div class="row text-center">
         <div class="intro">
+
           <p>It’s a hackathon… it’s a startup weekend… it’s both! </p>
 
           <p>What is Cal Innovates? We’re a collegiate competition that fuses the best aspects of hackathons, startup weekends, and case competitions. Students don’t just create novel technological developments, but also craft strategies to actually get their ideas into the “real” world. Cal Innovates doesn’t attract just engineers or just non-technical students - we encourage top students of all backgrounds to compete because we believe the best solutions come from the most diverse teams. </p>
@@ -104,164 +106,128 @@
         </div>
       </div>
       <div class="row">
-        <div padding-right="20px" class="col-md-6 col-sm-6 text-center">
-          <a class="rcsaInfo" href="#rcsaInfo">
-            <img class="img-fluid" src="img/rcsa_logo.png" alt="">
-            <h4 class="aboutCaption">About the Regents' and Chancellor's Scholars Association</h4>
-          </a>
-        </div>
-        <div class="col-md-6 col-sm-6 text-center">
-          <a class="scetInfo" href="#scetInfo">
-            <img class="img-fluid" src="img/scet_logo.jpg" alt="">
-            <h4 class="aboutCaption">About Pantas and Ting Sutardja Center for Entrepreneurship and Technology </h4>
-          </a>
-        </div>
-        </div>
-
-        <!-- The Modal -->
-        <div id="rcsaModal" class="modal">
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="modal-info">
-              <img src="img/rcsa_logo.png">
-              <p>
-                <i>The Regents’ and Chancellor’s Scholars Association (RCSA) is one of the largest student organizations on campus, comprising of a variety of student scholars from all sorts of backgrounds and majors.
-                </i>
-                The Regents’ and Chancellor’s Scholarship is the most prestigious scholarship offered by UC Berkeley to entering undergraduates, and attracts, retains, and graduates the most sought-after students in the world and is
-                <i>
-                  only awarded to the <b>Top 1% of Berkeley students.</b>
-                </i>
-              <br>
-              <br>
-                <i>
-                  While at Berkeley, recent scholars have served in such notable positions as Student Regent on the University of California Board of Regents, ASUC President, and Editor-in-Chief of the Daily Californian. Scholars have been chosen as
-                  <a href="http://financialaid.berkeley.edu/prizes-and-honors-university-medal">University Medalist</a> and have earned such prestigious awards as the Rhodes, Truman, and Marshall Scholarships. Many have gone on to become faculty at prestigious universities, CEOs of global corporations, and innovators and leaders in their chosen fields.
-                </i>
-              <br>
-              <br>
-                <i>
-                  Berkeley welcomes around 200 new Regents' and Chancellor's Scholars each year with a campus community of more than 800 scholars enrolled, making it the largest Regents' and Chancellor's Scholarship program in the UC system.
-                </i>
-              <br>
-              <br>
-                Learn more about the Regents’ and Chancellor’s Scholars Association <a href="https://rcsa.berkeley.edu/association/">here</a>
-              <br>
-              <br>
-                Learn about the Regents’ & Chancellor’s Scholarship <a href="http://financialaid.berkeley.edu/regents-and-chancellors-scholarship">here</a>.
-            </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- The Modal -->
-        <div id="scetModal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="modal-info">
-              <img src="img/scet_logo.jpg">
-              <p>
-                  <i>
-                    Since 2005, the Pantas and Ting Sutardja Center for Entrepreneurship and Technology (SCET) has created the foundation of Berkeley’s entrepreneurship ecosystem including <a href="http://skydeck.berkeley.edu/">SkyDeck</a>, the <a href="http://funginstitute.berkeley.edu/">Fung Institute</a>, the <a href="http://scet.berkeley.edu/programs/elpp/">Engineering Leadership Professional Program</a>, <a href="http://scet.berkeley.edu/programs/global-venture-lab/">Global Venture Lab</a>, and an extensive ecosystem of Silicon Valley and Global partners.
-                  </i>
-              <br>
-              <br>
-                <i>
-                  The Center is also known for developing the Berkeley Method, an internationally recognized approach to teaching technology entrepreneurship to undergraduates, innovation to Ph.D. students, and technology firm leadership to professionals and executives. As part of the Berkeley innovation ecosystem, the Sutardja Center also collaborates closely with the <a href="http://jacobsinstitute.berkeley.edu/">Jacob’s Institute for Design</a>, the <a href="http://www.haas.berkeley.edu/">Haas Business School</a>, and the <a href="http://foundry.citris-uc.org/">CITRIS Foundry</a>.
-                </i>
-              <br>
-              <br>
-                <i>
-                  Learn more about the Sutardja Center <a href="http://scet.berkeley.edu/about/">here</a>.
-                </i>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="team">
-        <div class="container">
-          <div class="row">
-      			<div class="col-lg-12 text-center">
-      				<h2 class="section-heading">The Team</h2>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-      	  <br>
-      	  <br>
+            <img class="img-fluid" src="img/rcs_logo.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>About the Regents' and Chancellor's Scholarship</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/rcsa_logo.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>About the Regents' and Chancellor's Scholars Association</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+                <img class="img-fluid d-block mx-auto" src="img/scet_logo.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>
+                About Pantas and Ting Sutardja Center for Entrepreneurship and Technology </h4>
+            </div>
+          </div>
+        </div>
+
+        <!--<h4> The Team </h4>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img id="img1" class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Joy Li</h4>
-              <p class="text-muted">
-                Co-Director of Corporate Relations
-              </p>
-              <p text-align="img1" class="aboutDescription">
-                <b>Year:</b> 2nd Year
-                <br>
-                <b>Major:</b> MCB with Dance Minor
-                <br>
-                <b>Hometown:</b> Monterey Park, CA
-              </p>
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Kay Garland</h4>
+              <p class="text-muted">Lead Designer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Jade Wong</h4>
-              <p class="text-muted">
-                Co-Director of Corporate Relations
-              </p>
-              <p class="aboutDescription">
-                <b>Year:</b> 2nd Year
-                <br>
-                <b>Major:</b> Economics and Sociology
-                <br>
-                <b>Hometown:</b> Los Angeles, CA
-              </p>
+              <h4>Larry Parker</h4>
+              <p class="text-muted">Lead Marketer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Swetha Prabakaran</h4>
-              <p class="text-muted">Director of Affairs</p>
-              <p class="aboutDescription">
-                <b>Year:</b> 1st Year
-                <br>
-                <b>Major:</b> Computer Science
-                <br>
-                <b>Hometown:</b> Washington D.C.
-              </p>
+              <h4>Diana Pertersen</h4>
+              <p class="text-muted">Lead Developer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="col-sm-4 twoLeft">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="">
-              <h4>Ben Drake</h4>
-              <p class="text-muted">Director of Finance</p>
-              <p class="aboutDescription">
-                <b>Year:</b> 1st Year
-                <br>
-                <b>Major:</b> Intended Business
-                <br>
-                <b>Hometown:</b> Dublin, CA
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/5.jpg" alt="">
-              <h4>Stella Seo</h4>
-              <p class="text-muted">Director of Hacker Relations</p>
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <!-- Sponsors -->
-    <section class="bg-light" id="sponsors">
+    <section id="sponsors">
       <div class="container">
         <div class="row">
 			<div class="col-lg-12 text-center">
@@ -286,30 +252,13 @@
 				work with you to craft a custom sponsorship package!
 			</p>
 		</div>
+
+
 	</div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-6 leftSponsor">
-              <img class="img-fluid d-block mx-auto sponsor" src="img/logos/adobe-logo.png" alt="">
-          </div>
-          <div class="col-md-2 col-sm-6">
-              <img class="img-fluid d-block mx-auto sponsor" src="img/logos/GoDaddy-Logo.png" alt="">
-          </div>
-          <div class="col-md-2 col-sm-6">
-              <img class="img-fluid d-block mx-auto sponsor" src="img/logos/IoTium.png" alt="">
-          </div>
-          <div class="col-md-2 col-sm-6">
-              <img class="img-fluid d-block mx-auto" src="img/logos/Noah.jpg" alt="">
-          </div>
-          <div class="col-md-2 col-sm-6">
-              <img class="img-fluid d-block mx-auto" src="img/logos/SkyDeck.png" alt="">
-          </div>
-        </div>
-      </div>
     </section>
 
 <!-- FAQ section -->
-    <section id="faq">
+    <section id="faq" class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -349,7 +298,7 @@
                        <h4 class="panel-title">
                          <a class="faq-panel" data-toggle="collapse" href="#collapse2">
                            <h3 class="service-heading text-center">Do I have to be a business major or
-							engineering major to attend?</h3>
+							engineering major or (insert major of choice here) to attend?</h3>
                          </a>
                        </h4>
                      </div>
@@ -400,8 +349,10 @@
             		</div>
 					</div>
 					</div>
+					</div>
 
 					<!-- FAQ 5 -->
+					<div class="col-md-6">
 					<div class="panel panel-default">
                      <div class="panel-heading panel-heading-white">
                        <h4 class="panel-title">
@@ -419,11 +370,9 @@
 						</p>
                      </div>
 					</div>
-                    </div>
 					</div>
 
 					<!-- FAQ 6 -->
-					<div class="col-md-6">
 					<div class="panel panel-default">
                      <div class="panel-heading panel-heading-white">
                        <h4 class="panel-title">
@@ -521,66 +470,9 @@
 							also highly recommend bringing your own extension cords and power strips, as outlet
 							access will be limited.  Everything else will be provided!
 						</p>
-                    </div>
+                  </div>
 					</div>
 					</div>
-                <!-- FAQ 10 -->
-				<div class="panel panel-default">
-                     <div class="panel-heading panel-heading-white">
-                       <h4 class="panel-title">
-                         <a class="faq-panel" data-toggle="collapse" href="#collapse10">
-                           <h3 class="service-heading text-center">I have
-                               dietary restrictions or need other
-                               accommodations to be able to fully participate.
-                               What do I do?
-                           </h3>
-                         </a>
-                       </h4>
-                     </div>
-                     <div id="collapse10" class="panel-collapse collapse">
-                       <div class="panel-body">
-                         <p>
-						    No worries, if you have any special needs or requests, you can list those needs on
- 							your registration form. For all non-dietary requests, a member of our team will
-							then follow up with you via email to further discuss how we can best accommodate
-							your request at the event.
-						</p>
-						<p>
-						    If you have additional questions (or requests, and you have already submitted your
-	 						registration), please email our team ASAP at
-							<a href="mailto:corporate.rcsa@gmail.com">corporate.rcsa@gmail.com</a>
-						</p>
-						<p>
-							<i>For those with dietary restrictions, here is a brief summary of what will be
-								provided at the event.  Contact us if you have specific questions:</i>
-						</p>
-						<p class="tab">
-							 <b>Saturday light brunch:</b> Assorted pastries and baked goods.
-							<br>
-							 <b>Saturday dinner:</b> Casual dinner fare
-							<br>
-							<b>Sunday brunch:</b> Casual lunch fare, assorted pastries, and baked goods.
-							<br>
-							<b>Sunday dinner:</b> Casual dinner fare
-						</p>
-                        <p>
-                            Vegetarian options will be available for all meals,
-                            but we cannot make any such guarantees for vegan
-                            options without advance notice.
-                            <br><br>
-                            Most common allergens at all meals: wheat (and
-                            gluten), dairy, soy
-                            <br><br>
-                            We may potentially have some items at brunch that
-                            contain peanuts or treenuts, but we will be taking
-                            extensive steps to minimize nut options.  While we
-                            will be working to prevent cross-contamination, we
-                            cannot guarantee that minimal contact may occur.
-                        </p>
-                      </div>
-					</div>
-					</div>
-
                   </div>
 				</div>
     </section>
@@ -699,6 +591,7 @@
         </div>
       </div>
     </section> -->
+
     <footer id="contact">
         <div class="container">
             <div class="row">
@@ -724,7 +617,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-    <script src="js/modal.js"></script>
 
   </body>
 

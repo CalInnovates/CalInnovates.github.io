@@ -3,21 +3,26 @@ body {
   font-family: 'PT Serif', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.tab {
+    margin-left: 40px;
+}
+
 p {
   line-height: 1.75;
 }
 
 a {
-  color: #fed136;
+  color: #3C73C2;
 }
 
 a:hover {
-  color: #fec503;
+  color: #3C73C2;
 }
 
 .text-primary {
   color: #fed136 !important;
 }
+
 
 h1,
 h2,
@@ -31,6 +36,10 @@ h6 {
 
 section {
   padding: 100px 0;
+}
+
+section h4.aboutCaption {
+  color: #212529;
 }
 
 section h2.section-heading {
@@ -122,10 +131,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 400;
-  padding: 0.75em 0;
+  padding: 2em 0;
   letter-spacing: 1px;
+  height: 65px;
   color: white;
   font-family: 'PT Sans', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -167,7 +177,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/landing-img.jpg");
   opacity:0.5;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -178,16 +188,11 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   font-family: 'PT Sans', 'Open Sans', sans-serif;
 }
 
@@ -205,11 +210,10 @@ header.masthead .intro-text .intro {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 90px;
+    font-weight: 1000;
     line-height: 75px;
     margin-bottom: 50px;
-    text-decoration: underline;
     font-family: 'PT Sans', 'Open Sans', sans-serif
   }
   header.masthead .intro-text .intro {
@@ -221,9 +225,35 @@ header.masthead .intro-text .intro {
   }
 }
 
+.faq-panel {
+    color:#4286f4;
+    font-family: 'PT Serif', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.panel {
+ margin-bottom:20px;
+ background-color:#fec81090;
+ border:1px solid transparent;
+ border-radius:4px;
+ -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
+ box-shadow:0 1px 1px rgba(0,0,0,.05)
+}
+.panel-body {
+ padding:15px
+}
+.panel-heading {
+ padding:10px 15px;
+ border-bottom:1px solid transparent;
+ border-top-left-radius:3px;
+ border-top-right-radius:3px
+}
+
 .service-heading {
+  color: #8883B2;
   margin: 15px 0;
+  font-size:25px;
   text-transform: none;
+  padding: 10px;
 }
 
 #portfolio .portfolio-item {
@@ -247,7 +277,6 @@ header.masthead .intro-text .intro {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -283,7 +312,7 @@ header.masthead .intro-text .intro {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
+  margin: ub;
   text-transform: none;
 }
 
@@ -593,104 +622,79 @@ header.masthead .intro-text .intro {
   margin-top: 0;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-info {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 18px;
+}
+
+.twoLeft {
+  margin-left: 17%;
+}
+
+
+.aboutDescription {
+  padding-left:20%;
+  text-align: left;
+}
+
+.leftSponsor {
+  margin-left: 8%;
+}
+
+.sponsor {
+  position:relative;
+  padding-top: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer#contact {
+  background-color: #8883B290;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-section#contact .section-heading {
-  color: #fff;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-
-section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-footer {
-  padding: 25px 0;
-  text-align: center;
-}
-
-footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #212529;
-}
-
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  padding:5px;
 }
