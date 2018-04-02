@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Serif', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .tab {
@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section {
@@ -54,7 +54,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -64,7 +64,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -198,7 +198,7 @@ header.masthead .intro-text .intro-heading {
 
 header.masthead .intro-text .intro {
   font-size: 22px;
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'PT Serif', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -218,7 +218,7 @@ header.masthead .intro-text .intro {
   }
   header.masthead .intro-text .intro {
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic; */
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'PT Serif', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -358,7 +358,7 @@ header.masthead .intro-text .intro {
 
 .portfolio-modal .modal-content p.item-intro {
   font-size: 16px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
