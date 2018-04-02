@@ -668,6 +668,15 @@ img {
   text-align: left;
 }
 
+.leftSponsor {
+  margin-left: 8%;
+}
+
+.sponsor {
+  position:relative;
+  padding-top: 30%;
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
