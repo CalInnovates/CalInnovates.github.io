@@ -658,6 +658,15 @@ img {
   font-size: 20px;
 }
 
+.twoLeft {
+  margin-left: 17%;
+}
+
+
+.aboutDescription {
+  padding-left:20%;
+  text-align: left;
+}
 
 /* The Close Button */
 .close {
